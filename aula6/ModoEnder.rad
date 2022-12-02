@@ -1,0 +1,32 @@
+        ORG 0
+Inicio: LDR A,Valor
+        NOP
+        LDR A,Ptr,I
+        NOP
+        LDR A,#h2F
+        NOP
+        LDR X,#00
+        LDR A,Vetor,X
+        NOP
+        ADD X,#01
+        LDR A,Vetor,X
+        NOP
+        LDR A,Valor
+        LDR B,Valor
+        LDR X,Valor
+        NOP
+        LDR A,#hA1
+        LDR B,#hA2
+        LDR X,#hA3 
+        HLT
+
+        ORG h50
+Valor:  DB  h1F
+Ptr:    DB  h80
+Vetor:  DAB h00,h01,h02,h03,h04,h05
+
+        ORG h80
+Ind:    DB  h43
+
+
+

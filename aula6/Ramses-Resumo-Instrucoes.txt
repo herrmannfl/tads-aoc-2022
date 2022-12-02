@@ -1,0 +1,12 @@
+
+OpCode Oper R ME  Mnemônico      Modo Enedereçamento
+  20 = 0010 0000  LDR A,Valor  - Modo Direto   A
+  22 = 0010 0010  LDR A,#00    - Modo Imediato A
+  24 = 0010 0100  LDR B,Valor  - Modo Direto   B
+  26 = 0010 0110  LDR B,#00    - Modo Imediato B
+  2A = 0010 1010  LDR X,#00    - Modo Imediato X
+
+  20 = 0010 0000  LDR A,Valor  - Modo Direto   A
+  21 = 0010 0001  LDR A,Ptr,I  - Modo Indireto A
+  22 = 0010 0010  LDR A,#00    - Modo Imediato A
+  23 = 0010 0011  LDR A,Vet,X  - Modo Indexado A com X 
