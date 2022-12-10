@@ -1,0 +1,9 @@
+Símbolo         Valor Decimal   Valor Hexadecimal
+-------         -------------   -----------------
+INICIO                      0                   0
+LOOP                        2                   2
+FIM                        20                  14
+IPV4                      128                  80
+MASCARA                   132                  84
+RESULT                    136                  88
+TEMPX                     140                  8C

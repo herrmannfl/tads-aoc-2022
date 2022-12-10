@@ -1,0 +1,10 @@
+	ORG 0
+	LDR A,Valor1	;carregando o valor do end. 128
+	SUB A,Valor2	;fazendo a subt e arm, no reg A
+	STR A,Result	;guardando o A no end. 130
+	HLT	
+
+	ORG 128 ;indica a posição de memória dos dados
+Valor1: DB 5	;na posição 128 eu guardo o valor 5
+Valor2: DB 2	;na posição 129 eu guardo o valor 2
+Result: DB 0	;na posição 130 eu guardo 0
