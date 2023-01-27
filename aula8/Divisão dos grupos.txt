@@ -1,8 +1,0 @@
-Lucas, Gabriel, Rael 		        - 6502
-Willms, Daniela, Jonathan e Luis        - 8086
-Eduardo Oliveira, Eduardo Mendes e Anna - 8080
-Mateus Algayer, Guilherme e Diogo       - Z80
-Vinicius, Johnny, Lennon                - 8080
-Junior 				- 8086
-
-
